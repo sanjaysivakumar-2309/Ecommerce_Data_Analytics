@@ -327,9 +327,17 @@ Environment files such as .env are excluded to protect database credentials.
 📸 Dashboard Preview
 
 
+### 1. Executive Overview
 
-Dashboard screenshots are available in the Screenshots folder.
+![Executive Overview](Dashboard/Executive_Overview.png)
 
+### 2. Product & Category Analysis
+
+![Product & Category Analysis](Dashboard/Product%20%26%20Category_Analysis.png)
+
+### 3. Customer & Seller Analysis
+
+![Customer & Seller Analysis](Dashboard/Customer%26Seller_Analysis.png)
 
 
 🚀 Skills Demonstrated
