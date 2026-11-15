@@ -1,394 +1,152 @@
-\# 🛒 E-Commerce Data Analytics Project
+# 🛒 E-Commerce Data Analytics Project
 
+## 📌 Project Overview
 
+This project focuses on analyzing e-commerce business data using **MySQL, Python, and Power BI** to uncover meaningful insights into revenue performance, product sales, customer purchasing behavior, and business profitability.
 
-\## 📌 Project Overview
+The goal is to transform raw e-commerce data into actionable business insights through SQL analysis, Python data analysis, and interactive Power BI dashboards.
 
+## 🎯 Project Objectives
 
+- Analyze overall revenue and profit performance.
+- Identify top-performing products and categories.
+- Understand customer purchasing behavior.
+- Analyze monthly revenue trends.
+- Evaluate order status and sales performance.
+- Identify high-value, medium-value, and low-value customers.
+- Build interactive dashboards for business decision-making.
 
-This project is an end-to-end \*\*E-Commerce Data Analytics\*\* project built using \*\*MySQL, Python, and Power BI\*\*.
-
-
-
-The goal of this project is to analyze e-commerce sales, customer behavior, product performance, seller performance, revenue, and profitability to generate meaningful business insights.
-
-
-
-\### Data Analytics Workflow
-
-
-
-\*\*MySQL → Python → Power BI\*\*
-
-
-
-\---
-
-
-
-\## 🎯 Business Questions
-
-
-
-This project answers questions such as:
-
-
-
-\- What is the total revenue and profit?
-
-\- What is the Average Order Value (AOV)?
-
-\- Which categories generate the highest revenue and profit?
-
-\- Which products generate the highest revenue?
-
-\- Which customers spend the most?
-
-\- Which sellers generate the highest revenue and profit?
-
-\- How does revenue change over time?
-
-\- Which customer segments generate the most revenue?
-
-\- Which states generate the highest revenue?
-
-\- Which order statuses contribute the most revenue?
-
-
-
-\---
-
-
-
-\## 🛠️ Tools \& Technologies
-
-
+## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-
 |---|---|
-
-| \*\*MySQL\*\* | Data analysis, SQL queries, and analytical views |
-
-| \*\*Python\*\* | Data analysis using Pandas and visualization using Matplotlib |
-
-| \*\*Power BI\*\* | Interactive dashboard and business reporting |
-
-| \*\*GitHub\*\* | Project documentation and version control |
-
-
-
-\---
-
-
-
-\## 🗄️ Database
-
-
-
-The project uses an e-commerce database named \*\*Amazon\*\* containing:
-
-
-
-\- Customers
-
-\- Orders
-
-\- Order Items
-
-\- Products
-
-\- Categories
-
-\- Sellers
-
-\- Payments
-
-
-
-\---
-
-
-
-\## 📊 SQL Analysis
-
-
-
-SQL was used to perform:
-
-
-
-\- Total revenue analysis
-
-\- Total orders and units sold
-
-\- Average Order Value (AOV)
-
-\- Revenue by category
-
-\- Revenue by state
-
-\- Monthly revenue analysis
-
-\- Top customers by spending
-
-\- Repeat customer analysis
-
-\- Product profitability analysis
-
-\- Category profitability analysis
-
-\- Seller performance analysis
-
-\- Customer segment analysis
-
-\- Month-over-Month revenue growth
-
-\- Top products within each category
-
-
-
-\### SQL Views
-
-
-
-The project includes the following analytical views:
-
-
-
-\- `vw\_monthly\_revenue`
-
-\- `vw\_category\_performance`
-
-\- `vw\_customer\_spending`
-
-\- `vw\_product\_performance`
-
-\- `vw\_seller\_performance`
-
-
-
-\---
-
-
-
-\## 🐍 Python Analysis
-
-
-
-Python was used with \*\*Pandas\*\* and \*\*Matplotlib\*\* for additional analysis.
-
-
-
-The analysis includes:
-
-
-
-\- Loading data from MySQL
-
-\- Data quality checks
-
-\- Missing-value checks
-
-\- Duplicate checks
-
-\- Monthly revenue analysis
-
-\- Category performance analysis
-
-\- Revenue sorting and ranking
-
-\- Data visualization
-
-
-
-\---
-
-
-
-\## 📈 Power BI Dashboard
-
-
-
-The Power BI dashboard contains \*\*3 pages\*\*.
-
-
-
-\### Page 1 — Executive Overview
-
-
-
-\- Total Revenue
-
-\- Total Orders
-
-\- Total Units Sold
-
-\- Total Profit
-
-\- Average Order Value
-
-\- Monthly Revenue Trend
-
-\- Revenue by Category
-
-\- Revenue by Order Status
-
-
-
-\### Page 2 — Product \& Category Analysis
-
-
-
-\- Profit by Category
-
-\- Top 10 Products by Revenue
-
-\- Top 10 Products by Profit
-
-\- Profit Margin by Category
-
-
-
-\### Page 3 — Customer \& Seller Analysis
-
-
-
-\- Top 10 Customers by Spending
-
-\- Revenue by Customer Segment
-
-\- Top 10 Sellers by Revenue
-
-\- Top 10 Sellers by Profit
-
-\- Customer Segment by Order Count
-
-\- Revenue by State
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
+| MySQL | Data storage, SQL queries, data analysis and views |
+| Python | Data analysis and data processing |
+| Pandas | Data manipulation |
+| NumPy | Numerical operations |
+| Power BI | Interactive dashboard development |
+| GitHub | Project documentation and portfolio |
+
+## 📂 Project Structure
 
 ```text
-
-Ecommerce\_Data\_Analytics/
-
+Ecommerce_Data_Analytics/
 │
-
 ├── SQL/
-
-│   ├── ecommerce\_analysis.sql
-
+│   ├── ecommerce_analysis.sql
 │   └── views.sql
-
 │
-
 ├── Python/
-
-│   └── ecommerce\_analysis.py
-
+│   └── ecommerce_analysis.py
 │
-
 ├── PowerBI/
-
-│   └── Amazon Project\_2.pbix
-
+│   └── Amazon Project_2.pbix
 │
-
 ├── Screenshots/
-
-│   └── Dashboard screenshots
-
+│   ├── Ecommerce_Overview_Dashboard.png
+│   ├── Ecommerce_Product_Analysis.png
+│   └── Ecommerce_Customer_Insights.png
 │
-
 └── README.md
+```
 
+## 📊 Power BI Dashboard
 
+The project contains three interactive dashboard pages.
 
-🔐 Security
+### 1. E-Commerce Overview
 
+- Total Revenue
+- Total Profit
+- Total Orders
+- Total Units Sold
+- Average Order Value
+- Monthly Revenue Trend
+- Revenue by Category
+- Revenue by Order Status
 
+![Ecommerce Overview](Screenshots/Ecommerce_Overview_Dashboard.png)
 
-Database credentials and sensitive information are not included in this repository.
+### 2. Product Performance Analysis
 
+- Top 10 Products by Revenue
+- Top Products by Profit
+- Category Revenue Contribution
+- Product-level performance analysis
+- Category and Product slicers
 
+![Product Analysis](Screenshots/Ecommerce_Product_Analysis.png)
 
-Environment files such as .env are excluded to protect database credentials.
+### 3. Customer Insights & Analytics
 
+- Top 10 Customers by Spending
+- Top 5 Customers by Order Contribution
+- Customer Spending vs Order Frequency
+- Customer Segmentation:
+  - High Value
+  - Medium Value
+  - Low Value
+- Interactive Customer Segment slicer
 
+![Customer Insights](Screenshots/Ecommerce_Customer_Insights.png)
 
-📸 Dashboard Preview
+## 🗄️ SQL Analysis
 
+SQL was used to perform business analysis and create reusable views.
 
-### 1. Executive Overview
+Key analysis areas:
 
-![Executive Overview](Dashboard/Executive_Overview.png)
+- Monthly Revenue Analysis
+- Category Performance Analysis
+- Customer Spending Analysis
+- Product Performance Analysis
+- Seller Performance Analysis
 
-### 2. Product & Category Analysis
+## 🐍 Python Analysis
 
-![Product & Category Analysis](Dashboard/Product%20%26%20Category_Analysis.png)
+Python was used for data analysis and processing.
 
-### 3. Customer & Seller Analysis
+Libraries used:
 
-![Customer & Seller Analysis](Dashboard/Customer%26Seller_Analysis.png)
+- Pandas
+- NumPy
 
+Key activities:
 
-🚀 Skills Demonstrated
+- Data loading
+- Data inspection
+- Data cleaning
+- Data manipulation
+- Exploratory Data Analysis
 
-SQL
+## 📈 Key Business Insights
 
-MySQL
+The project explores:
 
-Joins
+- Revenue and profit performance.
+- Best-selling products and profitable products.
+- Category-wise revenue contribution.
+- Monthly revenue patterns.
+- Customer spending distribution.
+- Customer purchase frequency.
+- Customer value segmentation.
 
-Subqueries
+## 💡 Business Value
 
-CTEs
+This project demonstrates how data analytics can help e-commerce businesses:
 
-Window Functions
+- Monitor business performance.
+- Identify profitable products.
+- Understand customer behavior.
+- Improve customer segmentation.
+- Support data-driven business decisions.
 
-Aggregations
+## 👨‍💻 Author
 
-Data Cleaning
+**Sanjay Sivakumar**
 
-Python
+Aspiring Data Analyst | SQL | Python | Power BI
 
-Pandas
+## ⭐ Project Status
 
-Matplotlib
-
-Power BI
-
-DAX
-
-Data Modeling
-
-Business Analysis
-
-Data Visualization
-
-
-
-
-
-👨‍💻 Author
-
-
-
-Sanjay S
-
-
-
-Aspiring Data Analyst
-
-
-
-Skills: SQL | Python | Power BI | Excel
-
+Completed – Three-page interactive Power BI dashboard with SQL and Python analysis.
